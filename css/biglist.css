@@ -85,3 +85,9 @@ body.narrow {
 body.extraNarrow {
   font-size: 70%;
 }
+
+
+input[type="email"].narrow {
+  width: 1000px;
+}
+
