@@ -88,6 +88,6 @@ body.extraNarrow {
 
 
 input[type="email"].narrow {
-  width: 1000px;
+  width: 1000px !important;
 }
 
