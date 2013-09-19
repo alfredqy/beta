@@ -22,17 +22,10 @@ var scaleFonts = function(viewPortWidth) {
   }
 }
 
-var setEmailBoxWidth = function(viewPortWidth) {a
-  if (viewPortWidth <= 700) {
-    $(".LR-signup-email").addClass('narrow');
-  }
-}
-
 $(document).ready(function() {
   var viewPortWidth = $(window).width();
 
   setBackgroundImage(viewPortWidth);
   scaleFonts(viewPortWidth);
-  setEmailBoxWidth(viewPortWidth);
 });
                 
