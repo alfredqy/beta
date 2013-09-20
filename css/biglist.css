@@ -49,6 +49,13 @@ h2 {
   padding: .2em;
 }
 
+.LR-sign-up-input {
+  width: 18.063em;
+  height: 1.125em;
+  line-height: 1.125em;
+  font-size: .983em;
+}
+
 /* Info */
 #info {
   padding: 2em 6em;
