@@ -49,11 +49,23 @@ h2 {
   padding: .2em;
 }
 
-.LR-sign-up-input {
+input[type="email"].LR-sign-up-input {
   width: 18.063em;
   height: 1.125em;
   line-height: 1.125em;
   font-size: .983em;
+}
+
+input[type="submit"].LR-sign-up-submit {
+  width: 15%;
+  height: 1.125em;
+  line-height: 1.125em;
+  font-size: 1.063em;
+  min-width: 3.438em;
+  margin-left: .625em;
+  padding-top: 0.938em !important;
+  padding-bottom: 0.938em !important;
+  max-height: 3em;
 }
 
 /* Info */
