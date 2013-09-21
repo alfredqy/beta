@@ -49,14 +49,14 @@ h2 {
   padding: .2em;
 }
 
-input[type="email"].LR-sign-up-input {
+#header input[type="email"].LR-sign-up-input {
   width: 18.063em;
   height: 1.125em;
   line-height: 1.125em;
   font-size: .983em;
 }
 
-input[type="submit"].LR-sign-up-submit {
+#header input[type="submit"].LR-sign-up-submit {
   width: 15%;
   height: 1.125em;
   line-height: 1.125em;
@@ -86,11 +86,11 @@ input[type="submit"].LR-sign-up-submit {
 
 /* For resizable text */
 body.extraWide {
-  font-size: 200%;
+  font-size: 120%;
 }
 
 body.wide {
-  font-size: 150%;
+  font-size: 110%;
 }
 
 body.standard {
